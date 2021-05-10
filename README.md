@@ -6,8 +6,8 @@ The user can enter any city into the search bar to recieve current conditions an
 
 The project has been has been published to GitHub pages listed below. 
 
-Link to application https://landonwilson1.github.io/Code-Quiz/
+Link to application https://landonwilson1.github.io/Weather-Dashboard/
 
-![Screenshots of Quiz](screenshot-quiz.png)
-![Screenshots of Quiz](screenshot-quiz1.png)
+![Screenshots of Quiz](screenshot-weather.png)
+
 
