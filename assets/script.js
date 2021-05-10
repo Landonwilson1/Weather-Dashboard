@@ -35,7 +35,7 @@ function showWeather(cityInput) {
 
   // QueryURL to Open Weather App for One Day 
     var oneDay ="https://api.openweathermap.org/data/2.5/weather?q=" 
-    + cityInput + "&units=imperial" + "&appid=45e45c0bb2ef540df33fa21a29aafa8a";
+    + cityInput + "&units=imperial" + "&appid=b7f5bbcf25f5227f04a67e383665ed91";
     console.log("oneDay", oneDay);  
 
   //AJAX call for One Day
@@ -61,7 +61,7 @@ function showWeather(cityInput) {
 
   // QueryURL to Open Weather App 
     var fiveDay = "https://api.openweathermap.org/data/2.5/onecall?" 
-    + "lat=" + lat + "&lon=" + lon + "&units=imperial" + "&appid=45e45c0bb2ef540df33fa21a29aafa8a";  
+    + "lat=" + lat + "&lon=" + lon + "&units=imperial" + "&appid=b7f5bbcf25f5227f04a67e383665ed91";  
         console.log("fiveDay", fiveDay);
 
    //AJAX call for Five Day & UV
