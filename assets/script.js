@@ -173,22 +173,20 @@ function showCities() {
     var cityNameFromArray = arrayFromStorage[i]; //
 
     $("#cityButtons").append (
-      //styling 
         "<div class='list-group'>"
 
     // City text
     + "<button class='list-group-item'>" + cityNameFromArray 
     + "</button>")
-  } // end of loop 
-} // end of showCities function 
+  } 
+}
 
 showCities (); // calls function to append cities upon page load 
 
-// show cities on click 
 $("#cityButtons").on("click", ".list-group-item", function(event) {
     event.preventDefault();
     var cityInput = ($(this).text());
     showWeather(cityInput); 
-}) // end of city buttons on click
+}) 
 
-}); // end of document ready function
+});
